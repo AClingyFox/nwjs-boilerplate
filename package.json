@@ -1,0 +1,21 @@
+{
+  "name": "nwjs-boilerplate",
+  "version": "1.0.0-beta.2",
+  "description": "A boilerplate for NWJS apps",
+  "homepage": "https://github.com/AClingyFox/nwjs-boilerplate#readme",
+  "author": "The Clingy Fox",
+  "main": "index.html",
+  "license": "ISC",
+  "scripts": {
+    "start": "nw .",
+    "build": "node build.js",
+    "build:bin": "nwjc ."
+  },
+  "dependencies": {
+    "pixi.js": "6.3.0"
+  },
+  "devDependencies": {
+    "copy-dir-sync": "git+https://github.com/AClingyFox/copy-dir-sync.git",
+    "nw": "0.63.0-sdk"
+  }
+}
